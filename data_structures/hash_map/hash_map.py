@@ -6,7 +6,7 @@ class HashTable:
         hash=0
         for char in key:
             hash+=ord(char)
-        print( hash%self.max)
+        return( hash%self.max)
     def __getitem__(self,index):
         h=self.get_hash(index)
         return self.arr[h]
