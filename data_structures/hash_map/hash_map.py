@@ -16,4 +16,4 @@ class HashTable:
 
 t=HashTable()
 t.get_hash("march 7")
-# t["march 7"]=120
+t["march 7"]=120
